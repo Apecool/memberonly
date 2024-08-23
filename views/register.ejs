@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head><title>Register</title></head>
+<body>
+    <h1>Register</h1>
+    <form action="/register" method="POST">
+        <label>Username: <input type="text" name="username" required></label>
+        <label>Password: <input type="password" name="password" required></label>
+        <label>Member: <input type="checkbox" name="is_member"></label>
+        <button type="submit">Register</button>
+    </form>
+    <p><%= message %></p>
+</body>
+</html>
